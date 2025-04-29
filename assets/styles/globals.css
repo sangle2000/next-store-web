@@ -1,10 +1,7 @@
-
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
-@tailwind base;
-@tailwind components;
 @tailwind utilities;
 @reference "tailwindcss";
 
@@ -34,6 +31,10 @@
 
   .h3-bold {
     @apply font-bold text-xl lg:text-2xl;
+  }
+
+  a {
+    @apply text-black no-underline;
   }
 }
 

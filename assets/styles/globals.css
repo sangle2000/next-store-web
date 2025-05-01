@@ -215,4 +215,14 @@
     color: hsl(var(--foreground));
     text-decoration: none;
   }
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #eee;
+  }
 }

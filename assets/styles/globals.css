@@ -32,10 +32,6 @@
   .h3-bold {
     @apply font-bold text-xl lg:text-2xl;
   }
-
-  a {
-    @apply text-black no-underline;
-  }
 }
 
 @layer base {
@@ -96,8 +92,7 @@
 
 @layer base {
   body {
-    background-color: hsl(var(--background));
-    color: hsl(var(--foreground));
+    @apply bg-background text-foreground;
   }
 }
 
@@ -214,5 +209,10 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  a {
+    color: hsl(var(--foreground));
+    text-decoration: none;
   }
 }

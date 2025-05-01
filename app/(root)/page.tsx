@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Home",
 };
 
-const HomePage = () => {
+const HomePage = async () => {
   return <>ProStore</>;
 };
 
